@@ -29,7 +29,7 @@ def array_literal_matrix
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
-  residents_sorted = [[ENNET_HOUSE.sort], [ENFIELD_TENNIS_ACADEMY.sort]]
+  residents_sorted = [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
   return residents_sorted
 end
 
